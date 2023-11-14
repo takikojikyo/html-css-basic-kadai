@@ -58,6 +58,14 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+
+  #menu-sp{
+    display: none;
+  }
+  
+  #nav-sp{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -127,11 +135,4 @@ PC用のスタイル
   background-position: right top;
 }
   
-#menu-sp{
-  display: none;
-}
-
-#nav-sp{
-  display: none;
-}
 }
